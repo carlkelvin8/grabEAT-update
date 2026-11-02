@@ -57,7 +57,7 @@
     outer.append(inner);
     return outer;
   };
-  [...headline.childNodes].forEach((node) => {
+  [...(headline ? headline.childNodes : [])].forEach((node) => {
     if (node.nodeType !== Node.TEXT_NODE) {
       node.replaceWith(makeWord(node.textContent, node.className));
       return;
@@ -68,7 +68,7 @@
 
   // Number children so lists can enter one after another
   const setOrder = (items) => items.forEach((item, i) => item.style.setProperty('--i', i));
-  $$('.ticks, .btn-row, .steps, .logos').forEach((list) => {
+  $$('.ticks[data-reveal], .btn-row[data-reveal], .steps, .logos, .step-cards, .features, .values').forEach((list) => {
     list.classList.add('stagger');
     setOrder([...list.children]);
   });
@@ -107,7 +107,7 @@
   const header = $('[data-header]');
   const toTop = $('[data-to-top]');
   const parallax = [
-    { el: $('.hero__media'), depth: .05 },
+    ...$$('.hero__media').map((el) => ({ el, depth: .05 })),
     ...$$('.split__media').map((el) => ({ el, depth: .035 })),
   ];
   const canParallax = matchMedia('(min-width: 901px) and (prefers-reduced-motion: no-preference)');
@@ -136,8 +136,8 @@
   addEventListener('resize', onScroll);
   onScroll();
 
-  // Active nav link follows the section in view
-  const links = $$('.nav > a[href^="#"]:not(.btn)');
+  // Nav highlight follows hover and rests on the current page
+  const links = $$('.nav > a:not(.btn)');
   const pill = document.createElement('span');
   pill.className = 'nav__pill';
   pill.setAttribute('aria-hidden', 'true');
@@ -154,19 +154,6 @@
   nav.addEventListener('mouseleave', () => movePill(activeLink()));
   addEventListener('resize', () => movePill(activeLink()));
   document.fonts.ready.then(() => movePill(activeLink()));
-  const linkFor = (section) => links.find((l) => (l.hash === '#top' ? section.matches('.hero') : `#${section.id}` === l.hash));
-  if ('IntersectionObserver' in window) {
-    const spy = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        const match = linkFor(entry.target);
-        links.forEach((l) => l.classList.toggle('is-active', l === match));
-        movePill(match);
-      });
-    }, { rootMargin: '-45% 0px -50% 0px' });
-    $$('main > section').forEach((section) => spy.observe(section));
-  }
-
   // Accordions: one panel open at a time, with a matching image
   $$('[data-accordion]').forEach((group) => {
     const items = $$('.acc', group);
@@ -235,10 +222,32 @@
     render();
   });
 
+  // Menu filters
+  $$('[data-menu]').forEach((menu) => {
+    const meals = $$('.meal', menu);
+    const count = $('[data-menu-count]', menu);
+    const active = { tags: '', supplier: '' };
+    $$('[data-filter-group]', menu).forEach((group) => {
+      const chips = $$('.chip', group);
+      chips.forEach((chip) => chip.addEventListener('click', () => {
+        chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+        active[group.dataset.filterGroup] = chip.dataset.filter;
+        let shown = 0;
+        meals.forEach((meal) => {
+          const match = (!active.tags || meal.dataset.tags.split(' ').includes(active.tags))
+            && (!active.supplier || meal.dataset.supplier === active.supplier);
+          meal.hidden = !match;
+          if (match) shown += 1;
+        });
+        count.textContent = `${shown} ${count.dataset.label}`;
+      }));
+    });
+  });
+
   // Contact form: validates, then opens a prepared email to grabEAT
   const form = $('[data-contact-form]');
   const status = $('[data-form-status]');
-  form.addEventListener('submit', (e) => {
+  if (form) form.addEventListener('submit', (e) => {
     e.preventDefault();
     const required = $$('input[required]', form);
     let firstInvalid = null;
@@ -272,7 +281,7 @@
     track('contact_form_submit');
     location.href = `mailto:post@grabeat.no?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
-  form.addEventListener('input', (e) => {
+  if (form) form.addEventListener('input', (e) => {
     const field = e.target.closest('.field');
     if (field && field.classList.contains('is-invalid') && e.target.checkValidity()) {
       field.classList.remove('is-invalid');

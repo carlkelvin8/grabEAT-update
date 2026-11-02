@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://grabeat.no/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/"/>
-    <xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/"/>
-  </url>
-  <url>
-    <loc>https://grabeat.no/no/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/"/>
-    <xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/"/>
-  </url>
+  <url><loc>https://grabeat.no/</loc><xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/"/><xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/"/></url>
+  <url><loc>https://grabeat.no/no/</loc><xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/"/><xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/"/></url>
+  <url><loc>https://grabeat.no/our-solutions/</loc><xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/our-solutions/"/><xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/our-solutions/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/our-solutions/"/></url>
+  <url><loc>https://grabeat.no/no/our-solutions/</loc><xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/our-solutions/"/><xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/our-solutions/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/our-solutions/"/></url>
+  <url><loc>https://grabeat.no/how-it-works/</loc><xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/how-it-works/"/><xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/how-it-works/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/how-it-works/"/></url>
+  <url><loc>https://grabeat.no/no/how-it-works/</loc><xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/how-it-works/"/><xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/how-it-works/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/how-it-works/"/></url>
+  <url><loc>https://grabeat.no/our-menu/</loc><xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/our-menu/"/><xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/our-menu/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/our-menu/"/></url>
+  <url><loc>https://grabeat.no/no/our-menu/</loc><xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/our-menu/"/><xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/our-menu/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/our-menu/"/></url>
+  <url><loc>https://grabeat.no/about-us/</loc><xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/about-us/"/><xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/about-us/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/about-us/"/></url>
+  <url><loc>https://grabeat.no/no/about-us/</loc><xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/about-us/"/><xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/about-us/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/about-us/"/></url>
+  <url><loc>https://grabeat.no/contact-us/</loc><xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/contact-us/"/><xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/contact-us/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/contact-us/"/></url>
+  <url><loc>https://grabeat.no/no/contact-us/</loc><xhtml:link rel="alternate" hreflang="en" href="https://grabeat.no/contact-us/"/><xhtml:link rel="alternate" hreflang="no" href="https://grabeat.no/no/contact-us/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://grabeat.no/contact-us/"/></url>
 </urlset>

@@ -1,0 +1,839 @@
+[
+ {
+  "name": "Bali Chicken Casserole",
+  "slug": "bali-chicken-casserole",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "chicken fillet natural, olive oil, Thai chicken broth powder (glutamate), corn starch 350, garlic, curry paste green, ginger root, brown sugar, vinegar rice, aroma, tom-kha soup spice ( FISH ), coconut cream, vegetable broth reduced in salt, apple boats, bali chicken stew ( SOYA ), water, paprika mix, pineapple, salt, coconut powder ( MILK ), oil coconut extra virgin, parboiled long-grain rice, corn kernels",
+  "allergens": "",
+  "image": "bali-chicken-casserole.webp"
+ },
+ {
+  "name": "Basil Chicken with Rice and Broccoli",
+  "slug": "basil-chicken-with-rice-and-broccoli",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "natural chicken fillet, olive oil, Thai chicken bouillon powder, rice flour, onion, red pepper, garlic, oyster sauce ( OYSTER, SOY, WHEAT ), chopped chili, fish sauce ( FISH ), reduced-salt soy sauce ( SOYBEANS, WHEAT flour), lemon juice, basil, brown sugar, cornstarch, broccoli, jasmine rice, extra virgin coconut oil",
+  "allergens": "",
+  "image": "basil-chicken-with-rice-and-broccoli.webp"
+ },
+ {
+  "name": "BeYou Deer Stew",
+  "slug": "beyou-deer-stew",
+  "price": 149,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Beef",
+   "Deer",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "fallow deer, beef meat 5% fat, olive oil, onion, garlic, tomato paste, bay leaf, juniper, vegetable broth reduced in salt, dry rosemary, red cooking wine (wine, salt, SULPHITE ), cooking cream 18% ( MILK ), dry thyme, whole pepper, carrot duo, CELERY root, mushrooms, Norwegian vegetable mixture ( CELERY ), parsley root, raisins, cornstarch 350, cranberry jam, potato, cream powder ( MILK ), black pepper, butter-flavored oil, chives",
+  "allergens": "",
+  "image": "beyou-deer-stew.webp"
+ },
+ {
+  "name": "Beef Mac and Cheese",
+  "slug": "beef-mac-and-cheese",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Beef",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "beef meat 14% fat, bbq rub steakhouse, onion, CELERY root, carrot, garlic powder, onion granules, chopped chili, tomato paste, olive oil, lime juice ( SULPHITES ), reduced salt beef broth, nutritional yeast, water, cheese powder ( MILK ), skimmed MILK powder, dry oregano, brown sugar, cheese full flavor ( MILK ), black pepper, salt, cornstarch 350, red paprika, peas, macaroni ( GLUTEN )",
+  "allergens": "",
+  "image": "beef-mac-and-cheese.webp"
+ },
+ {
+  "name": "Beef Ragu with Sweet Potato, Carrot and Parsnip Puree",
+  "slug": "beef-ragu-with-sweet-potato-carrot-and-parsnip-puree",
+  "price": 149,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Beef",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "beef meat 5% fat, whole pepper, red cooking wine (wine, salt, SULPHITE ), bay leaf, tamarind concentrate, chef de provence ( CELERY , MUSTARD ), olive oil, onion, garlic, carrot, CELERY root, homemade beef stock ( CELERY ), reduced-salt vegetable broth, brown sugar, fresh thyme, parsley, tomato puree, parsnip, sweet potato, chives, butter-flavored oil, black pepper, dextrose, potato fiber, citrus fiber",
+  "allergens": "",
+  "image": "beef-ragu-with-sweet-potato-carrot-and-parsnip-puree.webp"
+ },
+ {
+  "name": "Beef Ravioli",
+  "slug": "beef-ravioli",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Beef",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "beef meat 14% fat, onion, carrot, CELERY root, pizza spices, red cooking wine (wine, salt, SULPHITE ), dry basil, tomato paste, water, reduced salt beef broth, reduced salt vegetable broth, black pepper, nutritional yeast, brown sugar, paprika powder, parsley, red paprika, dry oregano, ravioli with 4 cheeses ( MILK, WHEAT FLOUR, EGG ), olive oil",
+  "allergens": "",
+  "image": "beef-ravioli.webp"
+ },
+ {
+  "name": "Beef Stroganoff with High Fiber Rice",
+  "slug": "beef-strogano%ef%ac%80-with-high-fiber-rice",
+  "price": 149,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Beef",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "storfe kjøtt 5% fett, bbq rub herbs, olje oliven, maistivelse 350, løk, chili hakket, paprika pulver, løkfond brunet, worcestershire saus (fra BYGG,FISK ), soppfond konsentrat, oksebuljong saltredusert, grønnsaksbuljong saltredusert, matfløte 18% ( MELK ), dijon SENNEP grov, champignon, persille, vann, salt, pepper svart, parboiled fullkorn ris, amerikansk blanding",
+  "allergens": "",
+  "image": "beef-stroganoefac80-with-high-fiber-rice.webp"
+ },
+ {
+  "name": "Burger Steak with Pepper Sauce",
+  "slug": "burger-steak-with-pepper-sauce",
+  "price": 149,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Beef",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "beef 5% fat, beef 14% fat, whey protein ( MILK ), potato flour, onion granules, black pepper, Worcestershire sauce (from BARLEY, FISH ), salt, water, EGG , parsley, nutritional yeast, onion, red wine (wine, SULPHITE ), cream 18% ( MILK ), whole rose pepper, fresh thyme, unsalted butter ( CREAM, LACTIC ACID CULTURE ), corn starch 350, xanthan gum, beef broth, natural lemon juice, sweet potato, peas, carrot duo",
+  "allergens": "",
+  "image": "burger-steak-with-pepper-sauce.webp"
+ },
+ {
+  "name": "Butter Chicken with Indian Basmati Rice",
+  "slug": "butter-chicken-with-indian-basmati-rice",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "chicken fillet natural, marinade tenderizing (salt, dextrose, emulsifier, acidity regulator, antioxidant), olive oil, onion, unsalted butter ( CREAM, LACTIC ACID CULTURE ), curry, garlic, ginger root, paprika powder, coriander powder, garam masala, cumin, lime juice ( SULPHITE ), ALMONDS , tomato puree, fraiche ( MILK ), chicken powder knorr ( MILK ), brown sugar, water, cornstarch 350, cream 18% ( MILK ), coriander leaves, peas, umami spices, basmati rice, turmeric",
+  "allergens": "",
+  "image": "butter-chicken-with-indian-basmati-rice.webp"
+ },
+ {
+  "name": "Butter Halloumi",
+  "slug": "butter-halloumi",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Lunch/Dinner",
+   "Vegetarian"
+  ],
+  "description": "",
+  "ingredients": "halloumi ( MILK ), unsalted butter ( CREAM, LACTIC ACID CULTURE ), red curry paste, garlic, ginger root, paprika powder, coriander powder, garam masala, cumin, ALMONDS , tomato puree, yoghurt powder ( MILK ), reduced salt vegetable broth, brown sugar, water, cornstarch 350, heavy cream 18% ( MILK ), coriander leaves, lentils, salt, basmati rice, butter-flavored oil, bay leaf, turmeric, peas",
+  "allergens": "",
+  "image": "butter-halloumi.webp"
+ },
+ {
+  "name": "Cacciatore with Steamed Vegetables",
+  "slug": "cacciatore-with-steamed-vegetables",
+  "price": 149,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "",
+  "allergens": "",
+  "image": "cacciatore-with-steamed-vegetables.webp"
+ },
+ {
+  "name": "Cannorozzetti Salmon with Cream Sauce and Bean Mix",
+  "slug": "cannorozzetti-salmon-with-cream-sauce-and-bean-mix",
+  "price": 149,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Fish",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "SALMON fillet with skin, bbq rub herbs, sunflower oil, vegetable stock concentrate, water, cream 18% ( MILK ), ground fennel seeds, wheat flour ( WHEAT ), browned onion stock, lemon juice, salt, butter ( CREAM, MILK ), grana padano ( MILK,EGG ), black pepper, xanthan gum, rice flour, bean mixture ( SOY ), cannerozzetti (durum WHEAT )",
+  "allergens": "",
+  "image": "cannorozzetti-salmon-with-cream-sauce-and-bean-mix.webp"
+ },
+ {
+  "name": "Chicken Fillet Casserole with Pesto Risoni",
+  "slug": "chicken-fillet-casserole-with-pesto-risoni",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "natural chicken fillet, bbq rub steakhouse, marinade tenderizing (salt, dextrose, emulsifier, acidity regulator, antioxidant), olive oil, garlic, onion, tomato paste, black pepper, salt-reduced vegetable broth, paprika powder, chili paste, brown sugar, coconut cream, parsley, fresh thyme, water, cornstarch 350, peas, risoni ( GLUTEN ), red pesto w/chilli ( MILK, CASHEW NUTS, EGG )",
+  "allergens": "",
+  "image": "chicken-fillet-casserole-with-pesto-risoni.webp"
+ },
+ {
+  "name": "Chicken Tikka Massala",
+  "slug": "chicken-tikka-massala",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "natural chicken fillet, marinade tenderizing (salt, dextrose, emulsifier, acidity regulator, antioxidant), vegetable oil, chopped chili, onion, ginger root, garlic, tikka masala spice, coriander powder, cumin, brown sugar, garam masala, homemade chicken broth, vegetable broth, tomato puree, cream 18% ( MILK ), yogurt powder ( MILK ), water, cauliflower mix with asparagus beans and peppers, xanthan gum, basmati rice, butter-flavored oil, turmeric, umami spices",
+  "allergens": "",
+  "image": "chicken-tikka-massala.webp"
+ },
+ {
+  "name": "Chili Con Carne",
+  "slug": "chili-con-carne",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Beef",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "beef meat 14% fat, Cocoa (Fat-reduced cocoa), onion, garlic, carrot, salt, olive oil, coriander powder, cumin, smoked paprika powder, chipotle paste, brown sugar, dry oregano, tomato puree, kidney beans, paprika mix, brown beans, cornstarch 350, umami spices, corn kernels, butter-flavored oil, parboiled long-grain rice",
+  "allergens": "",
+  "image": "chili-con-carne.webp"
+ },
+ {
+  "name": "Chilli Sin Carne",
+  "slug": "chilli-sin-carne",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Lunch/Dinner",
+   "Vegan",
+   "Vegetarian"
+  ],
+  "description": "",
+  "ingredients": "oumph! mince vegetarian ( SOYA ), taco spice mix, coriander powder, cumin, onion, garlic, smoked paprika powder, chili paste, carrot, brown sugar, vegetable broth reduced salt, water, dry oregano, tomato puree, soy sauce reduced salt (water, SOY beans, salt, WHEAT flour, sugar), cornstarch 350, parsley, kidney beans, paprika mix, corn kernels, olive oil, parboiled long grain rice",
+  "allergens": "",
+  "image": "chilli-sin-carne.webp"
+ },
+ {
+  "name": "Fullcorn Penne with Chicken Fillet and Arrabiata Sauce",
+  "slug": "fullcorn-penne-with-chicken-fillet-and-arrabiata-sauce",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "natural chicken fillet, chicken spices (celery), rice flour, ajvar, olive oil, onion, garlic, water, vegetable broth reduced in salt, tomato puree, paprika powder, balsamic vinegar ( SULPHITES ), chopped chili, pizza spices, brown sugar, dry basil, cornstarch 350, red paprika, chicken broth reduced in salt, black pepper, capers reduced in salt, pasta penne whole grain ( DURUM WHEAT ), grana padano ( MILK,EGG )",
+  "allergens": "",
+  "image": "fullcorn-penne-with-chicken-fillet-and-arrabiata-sauce.webp"
+ },
+ {
+  "name": "Fullcorn Spaghetti Bolognese",
+  "slug": "fullcorn-spaghetti-bolognese",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Lunch/Dinner",
+   "Pork"
+  ],
+  "description": "",
+  "ingredients": "boneless pork loin, bbq rub herbs, carrot, onion, CELERY root, tomato paste, salt, pepper, nutmeg, brown sugar, cloves, star anise, pork stock, sherry vinegar, dry basil, dry oregano, salt-reduced vegetable broth, grana padano ( MILK, EGG ), olive oil, whole grain spaghetti (whole grain durum WHEAT , water)",
+  "allergens": "",
+  "image": "fullcorn-spaghetti-bolognese.webp"
+ },
+ {
+  "name": "Green Curry Chicken with Vegetables and Rice",
+  "slug": "green-curry-chicken-with-vegetables-and-rice",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "chicken fillet plain, olive oil, cornstarch 350, chicken seasoning thai, umami spice, curry paste green, lemongrass, onion, ginger root, garlic, tom-kha soup spice ( FISH ), rice vinegar, aroma, coconut cream, brown sugar, spinach, water, wok mix, salt, corn kernels, extra virgin coconut oil, parboiled long grain rice",
+  "allergens": "",
+  "image": "green-curry-chicken-with-vegetables-and-rice.webp"
+ },
+ {
+  "name": "Hungarian Goulash",
+  "slug": "hungarian-goulash",
+  "price": 149,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Beef",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "beef 5% fat, tenderizing marinade (salt, dextrose, emulsifier, acidity regulator, antioxidant), bay leaf, white cooking wine (wine, salt, SULPHITE ), dry thyme, bacon pork, olive oil, chopped chili, onion, fresh garlic, parsley root, tomato puree, smoked paprika powder, caraway, brown sugar, beef broth, natural lemon juice, water, cornstarch 350, stew mix ( CELERY ), red paprika, potato, bbq rub herbs",
+  "allergens": "",
+  "image": "hungarian-goulash.webp"
+ },
+ {
+  "name": "Jamaican Jerk Chicken with Broccoli Mash",
+  "slug": "jamaican-jerk-chicken-with-broccoli-mash",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "boneless chicken thighs, marinade tenderizing (salt, dextrose, emulsifier, acidity regulator, antioxidant), Jamaican Jerk seasoning, onion, garlic, ginger root, carrot cubes, CELERY stick, leek, vegetable broth, natural lemon juice, cream 18% ( MILK ), brown sugar, water, cornstarch 350, dijon MUSTARD , fresh broccoli, butter-flavored oil, cream powder ( MILK ), potato fiber citrus fiber, black pepper, salt, nutmeg, potato",
+  "allergens": "",
+  "image": "jamaican-jerk-chicken-with-broccoli-mash.webp"
+ },
+ {
+  "name": "Korean Bulgogi with Sesame Rice",
+  "slug": "korean-bulgogi-with-sesame-rice",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Lunch/Dinner",
+   "Pork"
+  ],
+  "description": "",
+  "ingredients": "boneless pork neck, Thai pork bouillon powder, rice flour, SESAME oil, onion, garlic, ginger root, gochujang pepper paste ( SOYA ), soybean paste ( SOYAHWHEAT ), bean sauce ( SOYA,WHEAT,SESAME ), brown sugar, rice vinegar, carrot, paprika mix, new cabbage, spring onion, water, cornstarch, chives, salt, miola, jasmine rice, SESAME seeds",
+  "allergens": "",
+  "image": "korean-bulgogi-with-sesame-rice.webp"
+ },
+ {
+  "name": "Lo Mein Beef",
+  "slug": "lo-mein-beef",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Beef",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "beef 5% fat, marinade tenderizing (salt, dextrose, emulsifier, acidity regulator, antioxidant), Chinese five spice, SESAME oil, ginger root, garlic, chili paste, brown sugar, hoisin sauce ( WHEAT, SOY, SESAME ), salt-reduced soy sauce (water, SOY beans, salt, WHEAT flour, sugar), black pepper, water, rice vinegar, cornstarch 350, leek, red bell pepper, string beans, carrot duo, mushrooms, xanthan gum, EGG noodles ( WHEAT flour, EGG ), olive oil",
+  "allergens": "",
+  "image": "lo-mein-beef.webp"
+ },
+ {
+  "name": "Massaman Beef",
+  "slug": "massaman-beef",
+  "price": 149,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Beef",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "beef 5% fat, chicken seasoning Thai, rice flour, SESAME oil, curry massaman paste, onion, garlic, ginger root, PEANUTS , Asian beef stock ( SOYA, SHRIMP ), brown sugar, tamarind concentrate, fish sauce ( FISH ), bean paste ( SOYA, WHEAT, PEANUTS ), cinnamon stick, whole coriander, cumin, coconut cream, water, stew mix ( CELERY ), cornstarch 350, jasmine rice, salt, bay leaf, extra virgin coconut oil",
+  "allergens": "",
+  "image": "massaman-beef.webp"
+ },
+ {
+  "name": "Meatballs with Broccoli, Tomato Sauce & Massed Cauliflower",
+  "slug": "meatballs-with-broccoli-tomato-sauce-massed-cauliflower",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "boneless chicken thighs, EGG , potato flour, salt, onion granules, dextrose, dill, black pepper, tortilla chips, reduced-salt chicken broth, cumin, cauliflower, butter-flavored oil, potato, olive oil, onion, garlic, water, tomato paste, sugar, apple cider vinegar, dry basil, reduced-salt vegetable broth, cornstarch 350, broccoli",
+  "allergens": "",
+  "image": "meatballs-with-broccoli-tomato-sauce-massed-cauliflower.webp"
+ },
+ {
+  "name": "Penne Alla Vodka",
+  "slug": "penne-alla-vodka",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "chicken fillet plain, marinade tenderizing (salt, dextrose, emulsifier, acidity regulator, antioxidant), olive oil, vodka, onion, carrot cubes, garlic, chopped chili, tomato puree, brown sugar, cream 18% ( MILK ), water, tomato pulp, parsley, dry basil, cornstarch 350, paprika mix, chicken broth (salt, yeast extract, glucose syrup, chicken (fat, extract, meat powder), spice extract), salt, xanthan gum, grana padano ( MILK, EGG ), black pepper, penne pasta ( WHEAT )",
+  "allergens": "",
+  "image": "penne-alla-vodka.webp"
+ },
+ {
+  "name": "Protein Taco Casserole with Chickpeas and Corn Puree",
+  "slug": "protein-taco-casserole-with-chickpeas-and-corn-puree",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Lunch/Dinner",
+   "Pork"
+  ],
+  "description": "",
+  "ingredients": "boneless pork loin, beef 5% fat, taco spice mix, onion, garlic, pork stock, olive oil, chipotle paste, chili paste, tomato puree, brown sugar, bbq sauce ( CELERY MUSTARD ), paprika mix, American mix, black pepper, water, cornstarch, chickpeas, corn kernels, lentils, salt, potato fiber, citrus fiber",
+  "allergens": "",
+  "image": "protein-taco-casserole-with-chickpeas-and-corn-puree.webp"
+ },
+ {
+  "name": "Pulled Pork With Mexican Rice",
+  "slug": "pulled-pork-with-mexican-rice",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Lunch/Dinner",
+   "Pork"
+  ],
+  "description": "",
+  "ingredients": "boneless pork neck, smoked house spices, whole pepper, apple juice, natural lemon juice, bay leaf, salt, dry oregano, sage, pork stock, olive oil, coriander powder, cumin, onion, carrot, garlic, chili paste, smoked paprika powder, corn oil, chipotle paste, corn kernels, basmati rice, water, tomato puree",
+  "allergens": "",
+  "image": "pulled-pork-with-mexican-rice.webp"
+ },
+ {
+  "name": "Satay Chicken with Basmati Rice and Peas",
+  "slug": "satay-chicken-with-basmati-rice-and-peas",
+  "price": 149,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "chicken fillet plain, satay spices ( PEANUTS, SOY ), rice flour, olive oil, onion, garlic, PEANUTS , red curry paste, whole coriander, cumin, paprika powder, reduced-salt chicken broth, tomato puree, coconut cream, lemon juice, brown sugar, satay sauce ( PEANUTS, SOY ), SOY paste, water, cornstarch 350, bouquet mix (cauliflower, sugar peas, carrot), basmati rice, extra virgin coconut oil, salt",
+  "allergens": "",
+  "image": "satay-chicken-with-basmati-rice-and-peas.webp"
+ },
+ {
+  "name": "Slow-Cooked Brisket in Spiced Sauce with Mashed Potatoes",
+  "slug": "slow-cooked-brisket-in-spiced-sauce-with-mashed-potatoes",
+  "price": 149,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Beef",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "beef brisket, beef meat 5% fat, bbq rub steakhouse, dry thyme, red cooking wine (wine, salt, SULPHITE ), whole pepper, bay leaf, olive oil, onion, garlic, chili paste, tomato puree, smoked paprika powder, brown sugar, bbq sauce ( CELERY MUSTARD ), homemade beef stock ( CELERY ), carrot, CELERY root, red paprika, potato, cream powder ( MILK ), water, butter-flavored oil, chives",
+  "allergens": "",
+  "image": "slow-cooked-brisket-in-spiced-sauce-with-mashed-potatoes.webp"
+ },
+ {
+  "name": "Spaghetti with Curry Sauce and Chicken",
+  "slug": "spaghetti-with-curry-sauce-and-chicken",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "boneless chicken thighs, fajita seasoning, red curry paste, olive oil, onion, CELERY root, carrot, salt, sugar, curry, garlic, natural lemon juice, reduced-salt chicken broth, tomato puree, dry parsley, cornstarch, pepper, spaghetti (durum WHEAT , water)",
+  "allergens": "",
+  "image": "spaghetti-with-curry-sauce-and-chicken.webp"
+ },
+ {
+  "name": "Szechuan Chicken with Rice",
+  "slug": "szechuan-chicken-with-rice",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "chicken fillet plain, rice flour, Thai chicken broth powder, SESAME oil, Szechuan pepper, Chinese five spice, chopped chili, onion, ginger root, garlic, tomato paste, hoisin sauce ( WHEAT, SOY, SESAME ), rice vinegar, SOY paste, brown sugar, water, wok mix, cornstarch, salt, extra virgin coconut oil, jasmine rice",
+  "allergens": "",
+  "image": "szechuan-chicken-with-rice.webp"
+ },
+ {
+  "name": "Tortelleni with Cheese",
+  "slug": "tortelleni-with-cheese",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Lunch/Dinner",
+   "Vegetarian"
+  ],
+  "description": "",
+  "ingredients": "tortelloni with five cheeses ( WHEAT, EGG, MILK, SOY ), butter ( CREAM, MILK ), onion, garlic, vegetable stock concentrate, mushroom stock concentrate, water, light cream 18% ( MILK ), skimmed MILK powder, grana padano ( MILK, EGG ), lemon juice, salt, dry oregano, dry parsley, pepper, wheat flour (wheat), pea protein, peas, mushrooms – champignons",
+  "allergens": "",
+  "image": "tortelleni-with-cheese.webp"
+ },
+ {
+  "name": "Tuscan Pork Stew with Fennel and Mashed Potatoes",
+  "slug": "tuscan-pork-stew-with-fennel-and-mashed-potatoes",
+  "price": 139,
+  "supplier": "Tren og Mat",
+  "tags": [
+   "Lunch/Dinner",
+   "Pork"
+  ],
+  "description": "",
+  "ingredients": "boneless pork neck, bbq rub herbs, olive oil, onion, garlic, carrot, CELERY root, fennel, chopped chili, pork stock, orange marmalade, tomato puree, dry oregano, ground fennel seeds, dry thyme, salt, whole pepper, white cooking wine (wine, SULPHITES ), cornstarch, water, chives, potato, butter-flavored oil, crème fraîche ( MILK )",
+  "allergens": "",
+  "image": "tuscan-pork-stew-with-fennel-and-mashed-potatoes.webp"
+ },
+ {
+  "name": "Bo Xao",
+  "slug": "bo-xao",
+  "price": 169,
+  "supplier": "Asian Corner",
+  "tags": [
+   "Beef",
+   "Lunch/Dinner"
+  ],
+  "description": "Stir-fried beef with lemongrass and chili in orange juice. Tender beef stir-fried over high heat with finely chopped lemongrass and delicate chili, glazed in a refined sauce of freshly squeezed orange with the perfect balance between sweetness and acidity. Served with fresh salad and silky jasmine rice.",
+  "ingredients": "",
+  "allergens": "Gluten (the beef is marinated in oyster sauce and soy sauce).",
+  "image": "bo-xao.webp"
+ },
+ {
+  "name": "Char Siu with Rice",
+  "slug": "char-siu-with-rice",
+  "price": 169,
+  "supplier": "Asian Corner",
+  "tags": [
+   "Lunch/Dinner",
+   "Pork"
+  ],
+  "description": "Tender and juicy char siu (pork), slowly marinated and glazed in a rich, caramelized sauce with hints of garlic and aromatic spices. Served with jasmine rice, fresh salad and our house char siu sauce.",
+  "ingredients": "",
+  "allergens": "Gluten from soy",
+  "image": "char-siu-with-rice.webp"
+ },
+ {
+  "name": "Red Curry Pot",
+  "slug": "red-curry-pot",
+  "price": 169,
+  "supplier": "Asian Corner",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "A rich and aromatic stew with coconut milk, red curry, tender pieces of chicken, crispy vegetables and fragrant herbs. The dish is not very spicy, just a hint of chili. Served with rice. Choose between chicken, shrimp, tofu. Slightly spicy.",
+  "ingredients": "",
+  "allergens": "Fish sauce, Shellfish",
+  "image": "red-curry-pot.webp"
+ },
+ {
+  "name": "Saigon Wok",
+  "slug": "saigon-wok",
+  "price": 169,
+  "supplier": "Asian Corner",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "Juicy chicken pieces quickly stir-fried with crispy vegetables in a flavorful Asian sauce. A harmonious combination of sweet and salty. Served with rice. Not spicy/mild.",
+  "ingredients": "",
+  "allergens": "Soy, Fish sauce, Shellfish",
+  "image": "saigon-wok.webp"
+ },
+ {
+  "name": "Yakitori with Rice",
+  "slug": "yakitori-with-rice",
+  "price": 169,
+  "supplier": "Asian Corner",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "Tender chicken skewers marinated in garlic, sesame oil, soy sauce and other fresh Asian spices. Grilled to juicy perfection with a lightly caramelized surface. Served with silky rice and vegetables.",
+  "ingredients": "",
+  "allergens": "Gluten from soy",
+  "image": "yakitori-with-rice.webp"
+ },
+ {
+  "name": "Butter Chicken",
+  "slug": "butter-chicken",
+  "price": 179,
+  "supplier": "Nawabs",
+  "tags": [
+   "Chicken",
+   "Halal",
+   "Lunch/Dinner"
+  ],
+  "description": "Tandoori chicken cooked in cream and butter sauce. Served with rice.",
+  "ingredients": "",
+  "allergens": "Milk, wheat, cashew nuts.",
+  "image": "butter-chicken.webp"
+ },
+ {
+  "name": "Chicken Korma",
+  "slug": "chicken-korma",
+  "price": 179,
+  "supplier": "Nawabs",
+  "tags": [
+   "Chicken",
+   "Halal",
+   "Lunch/Dinner"
+  ],
+  "description": "Chicken pieces cooked in creamy cashew nut sauce. Served with rice",
+  "ingredients": "",
+  "allergens": "Milk, wheat, cashew nuts, almonds.",
+  "image": ""
+ },
+ {
+  "name": "Chicken Tikka Masala",
+  "slug": "chicken-tikka-masala",
+  "price": 179,
+  "supplier": "Nawabs",
+  "tags": [
+   "Chicken",
+   "Halal",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "",
+  "allergens": "Milk, wheat, cashew nuts.",
+  "image": ""
+ },
+ {
+  "name": "Lam Korma",
+  "slug": "lam-korma",
+  "price": 199,
+  "supplier": "Nawabs",
+  "tags": [
+   "Halal",
+   "Lamb",
+   "Lunch/Dinner"
+  ],
+  "description": "Lamb cooked in cream and cashew nut sauce. Served with rice.",
+  "ingredients": "",
+  "allergens": "Milk, wheat, cashew nuts, almonds.",
+  "image": ""
+ },
+ {
+  "name": "Mango Chicken",
+  "slug": "mango-chicken",
+  "price": 179,
+  "supplier": "Nawabs",
+  "tags": [
+   "Chicken",
+   "Halal",
+   "Lunch/Dinner"
+  ],
+  "description": "Marinated chicken cooked in the chef’s special mango sauce. Served with rice.",
+  "ingredients": "",
+  "allergens": "Milk, wheat, cashew nuts.",
+  "image": ""
+ },
+ {
+  "name": "Nawabs Chicken",
+  "slug": "nawabs-chicken",
+  "price": 189,
+  "supplier": "Nawabs",
+  "tags": [
+   "Chicken",
+   "Halal",
+   "Lunch/Dinner"
+  ],
+  "description": "Chicken cooked in special herbs with Pakistani aromatic flavor. Served with rice.",
+  "ingredients": "",
+  "allergens": "Milk, wheat, cashew nuts.",
+  "image": ""
+ },
+ {
+  "name": "Nawabs Daal (Vegetarian)",
+  "slug": "nawabs-daal-vegetarian",
+  "price": 159,
+  "supplier": "Nawabs",
+  "tags": [
+   "Halal",
+   "Lunch/Dinner",
+   "Vegetarian"
+  ],
+  "description": "Mixed lentils cooked in Nawab’s special masala sauce. Served with rice.",
+  "ingredients": "",
+  "allergens": "Milk, wheat, cashew nuts.",
+  "image": "nawabs-daal-vegetarian.webp"
+ },
+ {
+  "name": "Nawabs Special",
+  "slug": "nawabs-special",
+  "price": 199,
+  "supplier": "Nawabs",
+  "tags": [
+   "Halal",
+   "Lamb",
+   "Lunch/Dinner"
+  ],
+  "description": "Marinated lamb cooked in a creamy curry sauce with pineapple. Served with rice.",
+  "ingredients": "",
+  "allergens": "Milk, wheat, cashew nuts.",
+  "image": "nawabs-special.webp"
+ },
+ {
+  "name": "Pepper Chicken",
+  "slug": "pepper-chicken",
+  "price": 179,
+  "supplier": "Nawabs",
+  "tags": [
+   "Chicken",
+   "Halal",
+   "Lunch/Dinner"
+  ],
+  "description": "Grilled chicken cooked in cream and pepper sauce. Served with rice.",
+  "ingredients": "",
+  "allergens": "Milk, wheat, cashew nuts.",
+  "image": ""
+ },
+ {
+  "name": "Rogan Josh",
+  "slug": "rogan-josh",
+  "price": 199,
+  "supplier": "Nawabs",
+  "tags": [
+   "Halal",
+   "Lamb",
+   "Lunch/Dinner"
+  ],
+  "description": "Marinated lamb cooked with ginger and garlic in an aromatic curry sauce. Served with rice.",
+  "ingredients": "",
+  "allergens": "Milk, wheat, cashew nuts.",
+  "image": ""
+ },
+ {
+  "name": "Baguette with Cheese, Ham and Salad",
+  "slug": "baguette-with-cheese-ham-and-salad",
+  "price": 69,
+  "supplier": "Le Chef",
+  "tags": [
+   "Breakfast",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "",
+  "allergens": "Wheat, eggs, milk.",
+  "image": ""
+ },
+ {
+  "name": "Caesar Salad with Chicken and Parmesan",
+  "slug": "caesar-salad-with-chicken-and-parmesan",
+  "price": 99,
+  "supplier": "Le Chef",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "",
+  "allergens": "Wheat, fish, eggs, milk.",
+  "image": ""
+ },
+ {
+  "name": "Fish Soup",
+  "slug": "fish-soup",
+  "price": 99,
+  "supplier": "Le Chef",
+  "tags": [
+   "Fish",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "",
+  "allergens": "Milk, wheat, celery, eggs.",
+  "image": ""
+ },
+ {
+  "name": "Foccacia with Chicken and Curry Mayonnaise",
+  "slug": "foccacia-with-chicken-and-curry-mayonnaise",
+  "price": 99,
+  "supplier": "Le Chef",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "",
+  "allergens": "Wheat, Egg, Milk.",
+  "image": ""
+ },
+ {
+  "name": "Ham and Cheese Sandwich – Coarse",
+  "slug": "ham-and-cheese-sandwich-coarse",
+  "price": 59,
+  "supplier": "Le Chef",
+  "tags": [
+   "Breakfast",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "",
+  "allergens": "",
+  "image": ""
+ },
+ {
+  "name": "Ham and Cheese Sandwich – Fine",
+  "slug": "ham-and-cheese-sandwich-fine",
+  "price": 59,
+  "supplier": "Le Chef",
+  "tags": [
+   "Breakfast",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "",
+  "allergens": "",
+  "image": ""
+ },
+ {
+  "name": "Pasta Salad",
+  "slug": "pasta-salad",
+  "price": 99,
+  "supplier": "Le Chef",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "",
+  "allergens": "Wheat, mustard, eggs, milk.",
+  "image": ""
+ },
+ {
+  "name": "Roll with Cooked Ham and Mayonnaise",
+  "slug": "roll-with-cooked-ham-and-mayonnaise",
+  "price": 59,
+  "supplier": "Le Chef",
+  "tags": [
+   "Breakfast",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "",
+  "allergens": "Wheat, eggs, milk.",
+  "image": ""
+ },
+ {
+  "name": "Roll with cheese and ham",
+  "slug": "rolls-with-cheese-and-ham",
+  "price": 59,
+  "supplier": "Le Chef",
+  "tags": [
+   "Breakfast",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "",
+  "allergens": "Wheat, eggs, milk.",
+  "image": ""
+ },
+ {
+  "name": "Tortilla Wraps with Chicken Breast and Curry Mayonnaise",
+  "slug": "tortilla-wraps-with-chicken-breast-and-curry-mayonnaise",
+  "price": 79,
+  "supplier": "Le Chef",
+  "tags": [
+   "Chicken",
+   "Lunch/Dinner"
+  ],
+  "description": "",
+  "ingredients": "",
+  "allergens": "Hvete, egg, melk.",
+  "image": ""
+ }
+]
