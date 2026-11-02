@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>grabEAT – Gode Sunne Og Varme Måltider 24/7</title>
+  <meta name="description" content="Daily fresh meals, available 24/7 at grabEAT smart kiosks. Your warm, healthy meal is ready in just 3 minutes.">
+  <meta name="theme-color" content="#3F6B26">
+  <link rel="icon" href="assets/logos/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/hero.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <!-- Icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M14 8.5V6.6c0-.9.6-1.1 1-1.1h2.6V1.6L14 1.5c-4 0-4.9 3-4.9 4.9v2.1H6.5v4h2.6v10H14v-10h3.3l.5-4z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></g><circle cx="17.3" cy="6.7" r="1.3" fill="currentColor"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M22.5 7.2a2.8 2.8 0 0 0-2-2C18.8 4.7 12 4.7 12 4.7s-6.8 0-8.5.5a2.8 2.8 0 0 0-2 2C1 8.9 1 12 1 12s0 3.1.5 4.8a2.8 2.8 0 0 0 2 2c1.7.5 8.5.5 8.5.5s6.8 0 8.5-.5a2.8 2.8 0 0 0 2-2c.5-1.7.5-4.8.5-4.8s0-3.1-.5-4.8zM9.8 15.3V8.7l5.7 3.3z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="m6 12.5 4 4 8-9"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" d="m7 7 10 10M17 7 7 17"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="m9 5 7 7-7 7"/></symbol>
+  </svg>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__contact">
+        <a href="tel:+4747223288"><svg class="icon"><use href="#i-phone"/></svg>+47 47 22 32 88</a>
+        <a href="mailto:post@grabeat.no"><svg class="icon"><use href="#i-mail"/></svg>post@grabeat.no</a>
+      </div>
+      <div class="socials socials--light">
+        <a href="https://www.facebook.com/grabEAT.no/" aria-label="Facebook"><svg class="icon"><use href="#i-facebook"/></svg></a>
+        <a href="https://www.instagram.com/grabeat.no/" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a>
+        <a href="https://www.youtube.com/channel/UC2K87p___l81f4XrjC7E9Dw" aria-label="YouTube"><svg class="icon"><use href="#i-youtube"/></svg></a>
+        <a href="https://www.linkedin.com/company/grabeat-no/" aria-label="LinkedIn"><svg class="icon"><use href="#i-linkedin"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" data-header>
+    <div class="container header__inner">
+      <a class="header__logo" href="#top" aria-label="grabEAT home">
+        <img src="assets/logos/grabeat.webp" alt="grabEAT – Sunne og varme måltider 24/7" width="640" height="264">
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav" data-nav-toggle><span></span><span></span><span></span></button>
+      <nav class="nav" id="nav" aria-label="Main" data-nav>
+        <a href="#top" class="is-active">Home</a>
+        <a href="#solutions">Our Solutions</a>
+        <a href="#menu">Menu</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="https://grabeat.no/sustainability/">Sustainability</a>
+        <a href="#about">About Us</a>
+        <a href="https://grabeat.no/investor/">For Investors</a>
+        <a class="btn btn--tomato nav__cta" href="https://grabeat.no/investor/">Invest in grabEAT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <h1 data-reveal>Daily fresh meals, available 24/7 at grabEAT smart kiosks</h1>
+          <ul class="ticks" data-reveal>
+            <li><span class="tick"><svg><use href="#i-check"/></svg></span>Various fresh and healthy meals for everyone</li>
+            <li><span class="tick"><svg><use href="#i-check"/></svg></span>Your meal ready in just 3 minutes</li>
+            <li><span class="tick"><svg><use href="#i-check"/></svg></span>Easy to use with seamless and contactless payment</li>
+            <li><span class="tick"><svg><use href="#i-check"/></svg></span>Purchase directly on screen</li>
+          </ul>
+          <div class="btn-row" data-reveal>
+            <a class="btn btn--green" href="#solutions">Our Solutions</a>
+            <a class="btn btn--outline" href="#locations">Find a Kiosk Near You<svg class="icon"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+        <div class="hero__media" data-reveal>
+          <img src="assets/img/hero.webp" alt="A grabEAT smart kiosk between two potted plants" width="1536" height="1024" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <!-- Meals -->
+    <section class="section section--sage" id="menu">
+      <div class="container">
+        <h2 class="section__title" data-reveal>Ready to Taste the World With Us?</h2>
+        <div class="split" data-accordion>
+          <div class="split__media stack" data-reveal>
+            <img class="is-active" src="assets/img/meals-3.webp" alt="Hands holding a tray of colourful healthy meals with drinks alongside" loading="lazy" data-panel-img>
+            <img src="assets/img/meals-1.webp" alt="A plated international dish" loading="lazy" data-panel-img>
+            <img src="assets/img/meals-2.webp" alt="Spinach patties with mashed potato and tomatoes" loading="lazy" data-panel-img>
+          </div>
+          <div class="split__body" data-reveal>
+            <div class="accordion">
+              <div class="acc is-open">
+                <button class="acc__head" type="button" aria-expanded="true" id="m1" aria-controls="m1p"><span>Meals Ready to Enjoy</span><i aria-hidden="true"></i></button>
+                <div class="acc__panel" id="m1p" role="region" aria-labelledby="m1"><div><p>Craving something warm and comforting? Our selection of warm meals is designed to keep you fueled throughout the day. From protein-packed options to vegetarian and vegan dishes, our meals are both satisfying and nutritionally balanced.</p></div></div>
+              </div>
+              <div class="acc">
+                <button class="acc__head" type="button" aria-expanded="false" id="m2" aria-controls="m2p"><span>A Global Feast of Nutritious Meals</span><i aria-hidden="true"></i></button>
+                <div class="acc__panel" id="m2p" role="region" aria-labelledby="m2"><div><p>Taste the world’s most popular dishes! Discover vibrant international cuisine with grabEAT’s nutritious meals. Our globally inspired dishes are both delicious and wholesome—ready whenever you need.</p></div></div>
+              </div>
+              <div class="acc">
+                <button class="acc__head" type="button" aria-expanded="false" id="m3" aria-controls="m3p"><span>Something for Everyone</span><i aria-hidden="true"></i></button>
+                <div class="acc__panel" id="m3p" role="region" aria-labelledby="m3"><div><p>At grabEAT, we understand that everyone’s needs are different. That’s why our menu is inclusive—offering a variety of options for different dietary preferences: vegetarian, vegan, gluten-free and halal.</p></div></div>
+              </div>
+            </div>
+            <div class="center"><a class="btn btn--green" href="https://grabeat.no/our-menu/">Browse Our Menu<svg class="icon"><use href="#i-arrow"/></svg></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <h2 class="section__title" data-reveal>Get Your Meal in 3 Minutes</h2>
+        <ol class="steps steps--4" data-reveal>
+          <li><span class="steps__num">1</span><span>Find Our Kiosk</span></li>
+          <li><span class="steps__num">2</span><span>Choose a Meal <br>from the Menu</span></li>
+          <li><span class="steps__num">3</span><span>Pay Safely &amp; <br>Contactlessly</span></li>
+          <li><span class="steps__num">4</span><span>Enjoy!</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Locations -->
+    <section class="section section--flush-top" id="locations">
+      <div class="container">
+        <h2 class="section__title" data-reveal>Our Locations</h2>
+        <div class="carousel" data-carousel data-reveal>
+          <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Previous location" data-prev><svg class="icon"><use href="#i-chevron"/></svg></button>
+          <div class="carousel__track" data-track tabindex="0" aria-label="Kiosk locations" role="group">
+            <article class="loc">
+              <a class="loc__media" href="https://maps.app.goo.gl/c8NznvL21MpRH2QTA" aria-label="View Forum Kokstad on the map"><img src="assets/img/loc-forum.webp" alt="grabEAT kiosk at Forum Kokstad" loading="lazy"></a>
+              <h3>Forum Kokstad, Bergen</h3>
+              <p class="loc__note">&nbsp;</p>
+              <a class="btn btn--outline btn--sm" href="https://maps.app.goo.gl/c8NznvL21MpRH2QTA">View Location</a>
+            </article>
+            <article class="loc">
+              <a class="loc__media" href="https://maps.app.goo.gl/W15HKtLZR1VzPynV6" aria-label="View Kvåle Rasteplass on the map"><img src="assets/img/loc-kvale.webp" alt="grabEAT hub at Kvåle Rasteplass" loading="lazy"></a>
+              <h3>Kvåle Rasteplass, Voss</h3>
+              <p class="loc__note">&nbsp;</p>
+              <a class="btn btn--outline btn--sm" href="https://maps.app.goo.gl/W15HKtLZR1VzPynV6">View Location</a>
+            </article>
+            <article class="loc">
+              <a class="loc__media" href="https://maps.app.goo.gl/M7krP5jtVFcqSdRP9" aria-label="View Tesla Bergen on the map"><img src="assets/img/loc-tesla.webp" alt="grabEAT kiosk at Tesla, Bergen" loading="lazy"></a>
+              <h3>Tesla, Bergen</h3>
+              <p class="loc__note">*Accessible only for Tesla employees</p>
+              <a class="btn btn--outline btn--sm" href="https://maps.app.goo.gl/M7krP5jtVFcqSdRP9">View Location</a>
+            </article>
+          </div>
+          <button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Next location" data-next><svg class="icon"><use href="#i-chevron"/></svg></button>
+          <div class="carousel__dots" data-dots></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions -->
+    <section class="section section--flush-top" id="solutions">
+      <div class="container">
+        <h2 class="section__title" data-reveal>Our Solutions</h2>
+        <div class="split split--reverse" data-accordion>
+          <div class="split__body" data-reveal>
+            <div class="accordion">
+              <div class="acc is-open">
+                <button class="acc__head" type="button" aria-expanded="true" id="s1" aria-controls="s1p"><span>Convenience – Anywhere, Anytime</span><i aria-hidden="true"></i></button>
+                <div class="acc__panel" id="s1p" role="region" aria-labelledby="s1"><div><p>Life is busy, but eating well shouldn’t be a challenge. At grabEAT, we bring healthy, warm meals to you, with 24/7 daily access. Our automated kiosks are strategically located for easy access wherever you are.</p></div></div>
+              </div>
+              <div class="acc">
+                <button class="acc__head" type="button" aria-expanded="false" id="s2" aria-controls="s2p"><span>Health-Conscious and Sustainable Choices</span><i aria-hidden="true"></i></button>
+                <div class="acc__panel" id="s2p" role="region" aria-labelledby="s2"><div><p>At grabEAT, we are committed to promoting wellness—not just for you, but for the planet. Our meals are made using locally sourced ingredients and packaged in environmentally friendly materials.</p></div></div>
+              </div>
+              <div class="acc">
+                <button class="acc__head" type="button" aria-expanded="false" id="s3" aria-controls="s3p"><span>Seamless and Contactless Experience</span><i aria-hidden="true"></i></button>
+                <div class="acc__panel" id="s3p" role="region" aria-labelledby="s3"><div><p>In a world where safety and convenience matter more than ever, grabEAT is the forefront of innovation. Our automated kiosks offer a seamless, contactless purchase experience.</p></div></div>
+              </div>
+              <div class="acc">
+                <button class="acc__head" type="button" aria-expanded="false" id="s4" aria-controls="s4p"><span>Cost Effective Alternative to Cafeteria</span><i aria-hidden="true"></i></button>
+                <div class="acc__panel" id="s4p" role="region" aria-labelledby="s4"><div><p>Our kiosks are designed to meet the needs of various businesses and environments. Choose one of our different kiosk variants for your employers as a cost effective alternative to a cafeteria.</p></div></div>
+              </div>
+            </div>
+            <div class="center"><a class="btn btn--green" href="https://grabeat.no/our-solutions/">Read More<svg class="icon"><use href="#i-arrow"/></svg></a></div>
+          </div>
+          <div class="split__media stack" data-reveal>
+            <img class="is-active" src="assets/img/sol-3.webp" alt="grabEAT kiosk with three warm meals on a wooden table" loading="lazy" data-panel-img>
+            <img src="assets/img/sol-4.webp" alt="A grabEAT meal in eco-friendly packaging with wooden cutlery" loading="lazy" data-panel-img>
+            <img src="assets/img/sol-1.webp" alt="A phone paying contactlessly at a kiosk reader" loading="lazy" data-panel-img>
+            <img src="assets/img/sol-2.webp" alt="A large grabEAT kiosk serving warm meals and drinks" loading="lazy" data-panel-img>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison -->
+    <section class="section section--mist">
+      <div class="container">
+        <h2 class="section__title" data-reveal>Smart Choice for Your Business</h2>
+        <div class="compare">
+          <article class="plan" data-reveal>
+            <h3 class="plan__head">Canteen</h3>
+            <ul class="plan__list">
+              <li><span class="mark mark--no"><svg><use href="#i-x"/></svg></span>Available 24/7</li>
+              <li><span class="mark mark--yes"><svg><use href="#i-check"/></svg></span>Fresh, high quality meals</li>
+              <li><span class="mark mark--no"><svg><use href="#i-x"/></svg></span>Option to pre-order via app or purchase directly at the kiosk</li>
+              <li><span class="mark mark--no"><svg><use href="#i-x"/></svg></span>Sustainability</li>
+              <li class="plan__cost"><b>HIGH</b> Investment</li>
+              <li class="plan__cost"><b>HIGH</b> Operating costs</li>
+            </ul>
+          </article>
+          <article class="plan plan--best" data-reveal>
+            <div class="plan__head"><img src="assets/logos/grabeat.webp" alt="grabEAT" loading="lazy" width="640" height="264"></div>
+            <ul class="plan__list">
+              <li><span class="mark mark--best"><svg><use href="#i-check"/></svg></span>Available 24/7</li>
+              <li><span class="mark mark--best"><svg><use href="#i-check"/></svg></span>Fresh, high quality meals</li>
+              <li><span class="mark mark--best"><svg><use href="#i-check"/></svg></span>Option to pre-order via app or purchase directly at the kiosk</li>
+              <li><span class="mark mark--best"><svg><use href="#i-check"/></svg></span>Sustainability</li>
+              <li><span class="mark mark--best"><svg><use href="#i-check"/></svg></span>Practical</li>
+              <li><span class="mark mark--best"><svg><use href="#i-check"/></svg></span>Cost-effective alternative</li>
+            </ul>
+            <p class="plan__note">*Only requires electric supply and internet connection</p>
+            <div class="plan__foot"><a class="btn btn--green" href="https://grabeat.no/application-form/">Apply for a grabEAT Kiosk</a></div>
+          </article>
+          <article class="plan" data-reveal>
+            <h3 class="plan__head">Food delivery</h3>
+            <ul class="plan__list">
+              <li><span class="mark mark--no"><svg><use href="#i-x"/></svg></span>Available 24/7</li>
+              <li><span class="mark mark--yes"><svg><use href="#i-check"/></svg></span>Fresh, high quality meals</li>
+              <li><span class="mark mark--no"><svg><use href="#i-x"/></svg></span>Option to pre-order via app or purchase directly at the kiosk</li>
+              <li><span class="mark mark--no"><svg><use href="#i-x"/></svg></span>Sustainability</li>
+              <li class="plan__cost"><b>HIGH</b> Investment</li>
+              <li class="plan__cost"><b>HIGH</b> Operating costs</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Host -->
+    <section class="section section--cream">
+      <div class="container">
+        <h2 class="section__title" data-reveal>Host grabEAT in 3 Easy Steps</h2>
+        <ol class="steps steps--3 steps--butter" data-reveal>
+          <li><span class="steps__num">1</span><span>Apply for a grabEAT <br>automated kiosk</span></li>
+          <li><span class="steps__num">2</span><span>grabEAT will review your application and visit your location</span></li>
+          <li><span class="steps__num">3</span><span>Onboarding for approved applications</span></li>
+        </ol>
+        <div class="btn-row btn-row--center" data-reveal>
+          <a class="btn btn--green" href="https://grabeat.no/application-form/">Apply for a grabEAT Kiosk</a>
+          <a class="btn btn--outline" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title" data-reveal>About Us</h2>
+        <div class="split split--reverse split--about">
+          <div class="split__body" data-reveal>
+            <p class="lede">grabEAT started with a small team and a big idea: to bridge the gap between convenience and healthy eating. In a world where fast food often means compromising on quality, we wanted to create a solution that makes healthy, tasty meals easily accessible.</p>
+            <a class="btn btn--green btn--wide" href="https://grabeat.no/about-us/">Read More<svg class="icon"><use href="#i-arrow"/></svg></a>
+          </div>
+          <div class="split__media" data-reveal>
+            <img src="assets/img/about.webp" alt="A pot of homemade vegetable soup with meatballs and spinach" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--green" id="contact">
+      <div class="container">
+        <header class="contact__intro" data-reveal>
+          <p class="eyebrow">Contact Us</p>
+          <h2>Let’s Make Your Day Delicious!</h2>
+          <p>Got a craving for nourishing and convenient meals? Whether you have questions, feedback, or simply want to chat about how grabEAT can fuel your day, we’d love to hear from you!</p>
+        </header>
+        <div class="contact__card" data-reveal>
+          <div class="contact__info">
+            <p>Looking to partner, have a location suggestion, or interested in bringing grabEAT to your workplace?</p>
+            <p>Let’s connect and bring healthy, fresh meals to you!</p>
+            <a class="contact__item" href="tel:+4747223288"><span><svg class="icon"><use href="#i-phone"/></svg></span><div><strong>Phone</strong>+47 47223288 ( GRABEAT-8)</div></a>
+            <a class="contact__item" href="mailto:post@grabeat.no"><span><svg class="icon"><use href="#i-mail"/></svg></span><div><strong>Email</strong>post@grabeat.no</div></a>
+            <a class="contact__item" href="https://www.google.com/maps/search/?api=1&query=Strandbakken+31%2C+5101+Eidsv%C3%A5gneset"><span><svg class="icon"><use href="#i-pin"/></svg></span><div><strong>Address</strong>Strandbakken 31, 5101 Eidsvågneset</div></a>
+          </div>
+          <form class="form" data-contact-form novalidate>
+            <div class="form__row">
+              <label class="field"><span>First Name</span><input type="text" name="first" autocomplete="given-name" placeholder=" "></label>
+              <label class="field"><span>Last Name</span><input type="text" name="last" autocomplete="family-name" placeholder=" "></label>
+            </div>
+            <div class="form__row">
+              <label class="field"><span>Email</span><input type="email" name="email" autocomplete="email" required placeholder=" "></label>
+              <label class="field"><span>Phone</span><input type="tel" name="phone" autocomplete="tel" required placeholder=" "></label>
+            </div>
+            <fieldset class="checks">
+              <legend>Choose Topic/s:</legend>
+              <label class="check"><input type="checkbox" name="topic" value="Looking for a partnership"><span>Looking for a partnership</span></label>
+              <label class="check"><input type="checkbox" name="topic" value="Location suggestion"><span>Location suggestion</span></label>
+              <label class="check"><input type="checkbox" name="topic" value="Interested in bringing grabEAT to my workplace"><span>Interested in bringing grabEAT to my workplace</span></label>
+              <label class="check"><input type="checkbox" name="topic" value="Questions about grabEAT"><span>Questions about grabEAT</span></label>
+            </fieldset>
+            <label class="field"><span>Message</span><textarea name="message" rows="3" placeholder=" "></textarea></label>
+            <p class="form__legal">By clicking ‘Submit’ below, you agree that grabEAT may store and process the personal information submitted above to provide you with the requested content. I have read the <a href="https://grabeat.no/terms-conditions/" target="_blank" rel="noopener">Terms &amp; Conditions, Data Protection Regulations</a>.</p>
+            <label class="check"><input type="checkbox" name="optin" value="yes"><span>I agree to receive further communications from grabEAT.</span></label>
+            <button class="btn btn--green btn--block" type="submit">Submit</button>
+            <p class="form__status" role="status" data-form-status></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="section section--logos">
+      <div class="container">
+        <h2 class="section__title" data-reveal>Our Partners</h2>
+        <div class="logos logos--3" data-reveal>
+          <img src="assets/logos/innovation-norway.png" alt="Innovation Norway" loading="lazy">
+          <img src="assets/logos/toi.png" alt="TØI" loading="lazy">
+          <img src="assets/logos/forskningsradet.png" alt="Forskningsrådet" loading="lazy">
+        </div>
+        <h2 class="section__title section__title--gap" data-reveal>Programs We Attended</h2>
+        <div class="logos logos--5" data-reveal>
+          <img src="assets/logos/unity-spark.png" alt="Unity Spark" loading="lazy">
+          <img src="assets/logos/startup-migrants.webp" alt="Startup Migrants" loading="lazy">
+          <img src="assets/logos/tna-gta.webp" alt="Tech Nordic Advocates and Global Tech Advocates" loading="lazy">
+          <img src="assets/logos/aggrator.webp" alt="Aggrator" loading="lazy">
+          <img src="assets/logos/charge.webp" alt="Charge" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Review CTA -->
+    <section class="section section--green section--band">
+      <div class="container center" data-reveal>
+        <h2>Help Us Improve</h2>
+        <p>Share your experience with our kiosk and help us shape the future of healthy eating.</p>
+        <a class="btn btn--white" href="https://forms.gle/kesgQ5iAz8XTWyQr8">Send a Review</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#top" class="footer__logo" aria-label="grabEAT home"><img src="assets/logos/grabeat.webp" alt="grabEAT – Sunne og varme måltider 24/7" loading="lazy" width="640" height="264"></a>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="#top">Home</a>
+        <a href="#solutions">Our Solutions</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="https://grabeat.no/sustainability/">Sustainability</a>
+        <a href="#about">About Us</a>
+        <a href="https://grabeat.no/blog/">Our Blog</a>
+        <a href="https://grabeat.no/refund-policy">Refund Policy</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+      <ul class="footer__info">
+        <li>Business name: grabEAT AS</li>
+        <li>VAT Registration no: 933 328 430 MVA</li>
+        <li><a href="tel:+4747223288"><svg class="icon"><use href="#i-phone"/></svg>+47 472 23 288</a></li>
+        <li><a href="mailto:post@grabeat.no"><svg class="icon"><use href="#i-mail"/></svg>post@grabeat.no</a></li>
+      </ul>
+      <div class="socials">
+        <a href="https://www.facebook.com/grabEAT.no/" aria-label="Facebook"><svg class="icon"><use href="#i-facebook"/></svg></a>
+        <a href="https://www.instagram.com/grabeat.no/" aria-label="Instagram"><svg class="icon"><use href="#i-instagram"/></svg></a>
+        <a href="https://www.youtube.com/channel/UC2K87p___l81f4XrjC7E9Dw" aria-label="YouTube"><svg class="icon"><use href="#i-youtube"/></svg></a>
+        <a href="https://www.linkedin.com/company/grabeat-no/" aria-label="LinkedIn"><svg class="icon"><use href="#i-linkedin"/></svg></a>
+      </div>
+    </div>
+    <div class="footer__legal">Copyright © <span data-year>2026</span> GrabEAT | All Rights Reserved</div>
+  </footer>
+
+  <a class="to-top" href="#top" aria-label="Back to top" data-to-top><svg class="icon"><use href="#i-chevron"/></svg></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
