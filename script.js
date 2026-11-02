@@ -74,6 +74,7 @@
   });
   $$('.plan__list').forEach((list) => setOrder([...list.children]));
   setOrder($$('.loc'));
+  setOrder($$('.nav > a'));
 
   // Scroll reveal
   const revealed = $$('[data-reveal]');
