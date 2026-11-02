@@ -2,6 +2,48 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 
+  // Text set from script, per page language
+  const t = document.documentElement.lang === 'no'
+    ? {
+        dot: 'Gå til lokasjon',
+        invalid: 'Skriv inn en gyldig e-postadresse og et gyldig telefonnummer.',
+        opening: 'Åpner e-postprogrammet ditt med meldingen klar til å sendes.',
+        subject: 'Henvendelse fra grabEATs nettside',
+        from: 'fra',
+        name: 'Navn',
+        email: 'E-post',
+        phone: 'Telefon',
+        topics: 'Tema',
+        optin: 'Videre kommunikasjon',
+        yes: 'Ja',
+        no: 'Nei',
+      }
+    : {
+        dot: 'Go to location',
+        invalid: 'Please enter a valid email and phone number.',
+        opening: 'Opening your email app with your message ready to send.',
+        subject: 'grabEAT website enquiry',
+        from: 'from',
+        name: 'Name',
+        email: 'Email',
+        phone: 'Phone',
+        topics: 'Topics',
+        optin: 'Further communications',
+        yes: 'Yes',
+        no: 'No',
+      };
+
+  // Conversion events, picked up by GA4 once its tag is installed
+  window.dataLayer = window.dataLayer || [];
+  const track = (event) => window.dataLayer.push({ event });
+  document.addEventListener('click', (e) => {
+    const link = e.target.closest('a');
+    if (!link) return;
+    if (link.protocol === 'tel:') track('click_phone');
+    else if (link.protocol === 'mailto:') track('click_email');
+    else if (link.dataset.track) track(`click_${link.dataset.track}`);
+  });
+
   // Scroll reveal
   const revealed = $$('[data-reveal]');
   if ('IntersectionObserver' in window) {
@@ -40,7 +82,7 @@
   onScroll();
 
   // Active nav link follows the section in view
-  const links = $$('.nav > a[href^="#"]');
+  const links = $$('.nav > a[href^="#"]:not(.btn)');
   const linkFor = (section) => links.find((l) => (l.hash === '#top' ? section.matches('.hero') : `#${section.id}` === l.hash));
   if ('IntersectionObserver' in window) {
     const spy = new IntersectionObserver((entries) => {
@@ -103,7 +145,7 @@
         dots.replaceChildren(...list.map((_, i) => {
           const dot = document.createElement('button');
           dot.type = 'button';
-          dot.setAttribute('aria-label', `Go to location ${i + 1}`);
+          dot.setAttribute('aria-label', `${t.dot} ${i + 1}`);
           dot.addEventListener('click', () => goTo(i));
           return dot;
         }));
@@ -135,7 +177,7 @@
       if (!valid && !firstInvalid) firstInvalid = input;
     });
     if (firstInvalid) {
-      status.textContent = 'Please enter a valid email and phone number.';
+      status.textContent = t.invalid;
       status.classList.add('is-error');
       firstInvalid.focus();
       return;
@@ -144,17 +186,18 @@
     const name = `${data.get('first')} ${data.get('last')}`.trim();
     const topics = data.getAll('topic');
     const body = [
-      `Name: ${name}`,
-      `Email: ${data.get('email')}`,
-      `Phone: ${data.get('phone')}`,
-      `Topics: ${topics.join(', ') || '-'}`,
-      `Further communications: ${data.get('optin') ? 'Yes' : 'No'}`,
+      `${t.name}: ${name}`,
+      `${t.email}: ${data.get('email')}`,
+      `${t.phone}: ${data.get('phone')}`,
+      `${t.topics}: ${topics.join(', ') || '-'}`,
+      `${t.optin}: ${data.get('optin') ? t.yes : t.no}`,
       '',
       data.get('message'),
     ].join('\n');
-    const subject = `grabEAT website enquiry${name ? ` from ${name}` : ''}`;
+    const subject = `${t.subject}${name ? ` ${t.from} ${name}` : ''}`;
     status.classList.remove('is-error');
-    status.textContent = 'Opening your email app with your message ready to send.';
+    status.textContent = t.opening;
+    track('contact_form_submit');
     location.href = `mailto:post@grabeat.no?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
   form.addEventListener('input', (e) => {

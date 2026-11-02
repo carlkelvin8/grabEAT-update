@@ -1,3 +1,17 @@
+/* Self-hosted fonts */
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("assets/fonts/bricolage-grotesque-latin.woff2") format("woff2");
+  font-weight: 500 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("assets/fonts/figtree-latin.woff2") format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
+
 /* grabEAT — tokens */
 :root {
   --green: #4f7f2d;
@@ -91,6 +105,11 @@ button, input, textarea { font: inherit; color: inherit; }
 .topbar__contact { display: flex; flex-wrap: wrap; gap: 4px 28px; }
 .topbar__contact a { display: inline-flex; align-items: center; gap: 8px; opacity: .92; transition: opacity .2s; }
 .topbar__contact a:hover { opacity: 1; text-decoration: underline; text-underline-offset: 3px; }
+.topbar__end { display: flex; align-items: center; gap: 16px; }
+.lang { display: flex; gap: 2px; padding: 3px; border-radius: 999px; background: rgba(255, 255, 255, .14); font-size: 13px; font-weight: 600; }
+.lang a { padding: 2px 10px; border-radius: 999px; transition: background-color .2s, color .2s; }
+.lang a:hover { background: rgba(255, 255, 255, .2); }
+.lang a[aria-current="page"] { background: #fff; color: var(--green-deep); }
 .socials { display: flex; gap: 8px; }
 .socials a {
   display: grid; place-items: center; width: 34px; height: 34px;
@@ -221,6 +240,8 @@ button, input, textarea { font: inherit; color: inherit; }
 .loc__media { display: block; width: 100%; overflow: hidden; border-radius: var(--radius); box-shadow: var(--shadow); background: var(--mist); }
 .loc__media img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; transition: transform .8s var(--ease); }
 .loc__media:hover img { transform: scale(1.05); }
+.loc__media--logo { display: grid; place-items: center; aspect-ratio: 16 / 10; background: linear-gradient(135deg, var(--sage), var(--butter)); }
+.loc__media--logo img { width: 46%; aspect-ratio: auto; object-fit: contain; }
 .loc h3 { margin-top: 22px; font-size: 22px; letter-spacing: -.01em; }
 .loc__note { min-height: 24px; margin: 4px 0 10px; font-size: 14px; color: var(--tomato); font-weight: 500; }
 .carousel__arrow {
@@ -361,6 +382,9 @@ button, input, textarea { font: inherit; color: inherit; }
 .to-top.is-visible { opacity: 1; visibility: visible; transform: none; }
 .to-top:hover { background: var(--green); }
 
+/* Mobile action bar */
+.mobile-bar { display: none; }
+
 /* Reveal */
 .js [data-reveal] { opacity: 0; transform: translateY(20px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
 .js [data-reveal].is-in { opacity: 1; transform: none; }
@@ -406,6 +430,18 @@ button, input, textarea { font: inherit; color: inherit; }
   .topbar__inner { flex-wrap: wrap; justify-content: center; padding-block: 8px; }
   .topbar__contact { justify-content: center; font-size: 13.5px; }
   .topbar .socials { display: none; }
+  body { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
+  .mobile-bar {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 45;
+    display: grid; grid-template-columns: 1.4fr 1fr; gap: 10px;
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+    background: rgba(255, 255, 255, .94);
+    -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+    box-shadow: 0 -10px 28px -14px rgba(28, 47, 18, .35);
+  }
+  .mobile-bar .btn { min-height: 50px; padding: 8px 12px; }
+  .mobile-bar .btn .icon { font-size: 18px; }
+  .mobile-bar .btn:hover .icon { transform: none; }
   .header__inner { min-height: 72px; }
   .header__logo img { width: 116px; }
   .nav { max-height: calc(100vh - 72px); }
@@ -429,7 +465,7 @@ button, input, textarea { font: inherit; color: inherit; }
   .logos--3 { grid-template-columns: minmax(0, 1fr); gap: 28px; }
   .logos--5 { grid-template-columns: repeat(2, 1fr); gap: 28px 24px; }
   .footer__info { flex-direction: column; align-items: center; }
-  .to-top { right: 16px; bottom: 16px; }
+  .to-top { right: 16px; bottom: calc(84px + env(safe-area-inset-bottom)); }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
