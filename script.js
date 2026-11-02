@@ -44,6 +44,37 @@
     else if (link.dataset.track) track(`click_${link.dataset.track}`);
   });
 
+  // Split the hero headline into words that rise in one after another
+  const headline = $('.hero h1');
+  let wordIndex = 0;
+  const makeWord = (content, className) => {
+    const outer = document.createElement('span');
+    const inner = document.createElement('span');
+    outer.className = 'w';
+    inner.className = className || '';
+    inner.textContent = content;
+    inner.style.setProperty('--i', wordIndex++);
+    outer.append(inner);
+    return outer;
+  };
+  [...headline.childNodes].forEach((node) => {
+    if (node.nodeType !== Node.TEXT_NODE) {
+      node.replaceWith(makeWord(node.textContent, node.className));
+      return;
+    }
+    const parts = node.textContent.split(/(\s+)/).map((part) => (part.trim() ? makeWord(part) : document.createTextNode(part)));
+    node.replaceWith(...parts);
+  });
+
+  // Number children so lists can enter one after another
+  const setOrder = (items) => items.forEach((item, i) => item.style.setProperty('--i', i));
+  $$('.ticks, .btn-row, .steps, .logos').forEach((list) => {
+    list.classList.add('stagger');
+    setOrder([...list.children]);
+  });
+  $$('.plan__list').forEach((list) => setOrder([...list.children]));
+  setOrder($$('.loc'));
+
   // Scroll reveal
   const revealed = $$('[data-reveal]');
   if ('IntersectionObserver' in window) {
@@ -74,15 +105,54 @@
   // Header shadow and back-to-top
   const header = $('[data-header]');
   const toTop = $('[data-to-top]');
+  const parallax = [
+    { el: $('.hero__media'), depth: .05 },
+    ...$$('.split__media').map((el) => ({ el, depth: .035 })),
+  ];
+  const canParallax = matchMedia('(min-width: 901px) and (prefers-reduced-motion: no-preference)');
+  let ticking = false;
+  const onFrame = () => {
+    ticking = false;
+    const max = document.documentElement.scrollHeight - innerHeight;
+    header.style.setProperty('--progress', max > 0 ? Math.min(scrollY / max, 1) : 0);
+    parallax.forEach(({ el, depth }) => {
+      if (!canParallax.matches) return el.style.removeProperty('--py');
+      const box = el.getBoundingClientRect();
+      if (box.bottom < -100 || box.top > innerHeight + 100) return;
+      const fromCentre = box.top + box.height / 2 - innerHeight / 2;
+      el.style.setProperty('--py', (fromCentre * -depth).toFixed(1));
+    });
+  };
   const onScroll = () => {
     header.classList.toggle('is-stuck', scrollY > 60);
     toTop.classList.toggle('is-visible', scrollY > 600);
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(onFrame);
+    }
   };
   addEventListener('scroll', onScroll, { passive: true });
+  addEventListener('resize', onScroll);
   onScroll();
 
   // Active nav link follows the section in view
   const links = $$('.nav > a[href^="#"]:not(.btn)');
+  const pill = document.createElement('span');
+  pill.className = 'nav__pill';
+  pill.setAttribute('aria-hidden', 'true');
+  nav.prepend(pill);
+  nav.classList.add('has-pill');
+  const movePill = (link) => {
+    pill.classList.toggle('is-visible', Boolean(link));
+    if (!link) return;
+    pill.style.setProperty('--x', `${link.offsetLeft}px`);
+    pill.style.setProperty('--w', `${link.offsetWidth}px`);
+  };
+  const activeLink = () => links.find((l) => l.classList.contains('is-active'));
+  links.forEach((link) => link.addEventListener('mouseenter', () => movePill(link)));
+  nav.addEventListener('mouseleave', () => movePill(activeLink()));
+  addEventListener('resize', () => movePill(activeLink()));
+  document.fonts.ready.then(() => movePill(activeLink()));
   const linkFor = (section) => links.find((l) => (l.hash === '#top' ? section.matches('.hero') : `#${section.id}` === l.hash));
   if ('IntersectionObserver' in window) {
     const spy = new IntersectionObserver((entries) => {
@@ -90,6 +160,7 @@
         if (!entry.isIntersecting) return;
         const match = linkFor(entry.target);
         links.forEach((l) => l.classList.toggle('is-active', l === match));
+        movePill(match);
       });
     }, { rootMargin: '-45% 0px -50% 0px' });
     $$('main > section').forEach((section) => spy.observe(section));
